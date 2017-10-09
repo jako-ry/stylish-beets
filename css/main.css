@@ -2,7 +2,6 @@ html {
   background-color: #c9b5ab;
   line-height: 1.5;
   font-family: "PT Serif", serif;
-  font-size: .8rem;
   font-weight: normal;
 }
 
@@ -14,20 +13,34 @@ h1 {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
+  color: #3f1622;
 }
 
 h2 {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
+  color: #3f1622;
 }
 
 ol {
   list-style-type: none;
 }
 
-a {
-  font-family: "PT Sans", sans-serif;
+.common {
+  list-style-type: lower-greek;
+}
+
+ul {
+  list-style-type: circle;
   font-size: .8rem;
+}
+
+nav {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+a {
   line-height: 1.5;
   text-decoration: none;
 }
@@ -45,6 +58,11 @@ a:hover {
 .pratt {
   font-family: "PT Serif", serif;
   font-size: 1.5rem;
+  font-style: italic;
+}
+
+.chris {
+  font-size: .8rem;
 }
 
 .days {
@@ -55,4 +73,12 @@ a:hover {
 .cap {
   font-style: italic;
   text-align: center;
+}
+
+.size {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
 }
