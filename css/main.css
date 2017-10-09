@@ -1,9 +1,18 @@
 html {
   background-color: #c9b5ab;
-  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
   font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: none;
 }
