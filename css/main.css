@@ -22,3 +22,12 @@ a {
   line-height: 1.5;
   text-decoration: none;
 }
+
+a,
+a:link {
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+}
